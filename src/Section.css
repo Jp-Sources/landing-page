@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .section-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
